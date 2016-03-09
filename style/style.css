@@ -1,0 +1,42 @@
+/*
+ Dev by Sanctarius
+ Copyright 2016
+ */
+body {
+    font-family: "Share Tech" sans-serif;
+    color: white;
+}
+
+canvas {
+    position: absolute;
+}
+
+.controler {
+    width: 200px;
+    height: 120px;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #34495e;
+    position: relative;
+    text-align: center;
+
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    background-color: #ecf0f1;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    width: 10px;
+    height: 10px;
+    -webkit-appearance: none;
+    background-color: #2980b9;
+    border-radius: 10px;
+}

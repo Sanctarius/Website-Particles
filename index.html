@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Sanctaris"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Particles</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Share+Tech">
+    <link rel="stylesheet" href="style/reset.css"/>
+    <link rel="stylesheet" href="style/style.css"/>
+</head>
+<body>
+
+    <!-- CANVAS -->
+    <canvas id="canvas"></canvas>
+
+    <!-- CONTROLER -->
+    <div class="controler" id="controler">
+        <label for="taille_particule">Taille des particules</label>
+        <input type="range" min="1" max="100" range="0.5" value="35" name="taille_particule" id="taille_particule">
+        <br/>
+        <label for="vitesse_particule">Effet des particules</label>
+        <input type="range" min="1" max="100" range="0.5" value="20" name="vitesse_particule" id="vitesse_particule">
+    </div>
+
+    <!-- JS -->
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
